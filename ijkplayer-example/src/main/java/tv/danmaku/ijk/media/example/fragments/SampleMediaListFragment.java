@@ -66,10 +66,7 @@ public class SampleMediaListFragment extends Fragment {
                 VideoActivity.intentTo(activity, url, name);
             }
         });
-        mAdapter.addItem("rtmp://203.69.85.37/livepkgr/hopestream1?adbe-live-event=hopetv", "ddrtmp_1");
         mAdapter.addItem("rtmp://live.hkstv.hk.lxdns.com/live/hks", "rtmp_1");
-        mAdapter.addItem("rtsp://218.204.223.237:554/live/1/66251FC11353191F/e7ooqwcfbqjoo80j.sdp", "bipbop basic master playlist");
-        mAdapter.addItem("rtsp://180.168.116.75:554/user=admin&password=&channel=1&stream=0.sdp", "bipbop basic 400x300 @ 232 kbps");
 
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8", "bipbop basic master playlist");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8", "bipbop basic 400x300 @ 232 kbps");
