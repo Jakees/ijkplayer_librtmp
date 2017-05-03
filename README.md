@@ -1,5 +1,6 @@
 # ijkplayer_librtmp
 在ijkplayer原项目所使用的ffmpeg基础上添加了对RTMP，HTTPS协议的扩展支持( 即添加了Openssl库和librtmp库的支持)，使其能正常解析播放携带参数的RTMP和HTTPS的 URL,项目可直接导入AndroidStudio,ijkplayer-example部分为项目主工程，其余的都是依赖工程。
+
 参考链接：
 RTMPDump参数类型和定义：http://rtmpdump.mplayerhq.hu/
 
