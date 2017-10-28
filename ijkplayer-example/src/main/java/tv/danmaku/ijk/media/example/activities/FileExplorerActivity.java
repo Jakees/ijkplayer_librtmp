@@ -32,6 +32,9 @@ import tv.danmaku.ijk.media.example.application.Settings;
 import tv.danmaku.ijk.media.example.eventbus.FileExplorerEvents;
 import tv.danmaku.ijk.media.example.fragments.FileListFragment;
 
+/**
+ * 新增注释
+ */
 public class FileExplorerActivity extends AppActivity {
     private Settings mSettings;
 
